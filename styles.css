@@ -1,0 +1,71 @@
+:root{
+    --color-fondo: #333333;
+    --color-acento:#2563eb;
+    --color-acento-oscuro:#78b697;
+    --Botones:#306a8b;
+    --resaltar:#F2A365;
+    --texto:#fcfcfc;
+    --tarjetas:#615945;
+    --menu:#a39a81;
+}
+body{
+    background-color: var(--color-fondo);
+    color: var(--texto);
+    font-family: 'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: var(--texto);
+}
+li{
+    color: var(--texto);
+}
+.hobby-favorito{
+    color:var(--resaltar);
+}
+#btn-enviar{
+    background-color:var(--color-acento);
+    color: var(--texto);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.tarjeta{
+    background-color:var(--tarjetas);
+    padding:20px;
+    border-radius:10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    margin:20px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--menu);
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.5);
+    margin:20px;
+}
+a{
+    color: var(--texto);
+    text-decoration: none;
+    margin: 0px 10px;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+}
+@media(max-width: 768px){
+    main{
+        grid-template-columns:1fr;
+    }
+}
+footer{
+    background-color: var(--menu);
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./styles.css">   
+</head>
+<body>
+    <header>
+        <h1 class="nombre">Jorge Isaías Barrera Vergara</h1>
+        <nav>
+            <a href="/sobremi.html">Sobre mí</a>
+            <a href="/contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section class="tarjeta">
+            <h2>Programador en Proceso</h2>
+            <p>
+                Estoy aprendiendo progrmacion para poder realzar las aplicaciones que ayuden a la sociedad y mejorar la calidad de vida de las personas quiero aprender a dar solucoiones a problemas que la gente tiene en la vida cotidiana.
+            </p>
+            <h3>Hobbies</h3>
+            <ul>
+                <li class="hobby-favorito">Jugar Videojuegos</li>
+                <li>Trastear con la IA XD para poder saber que hacer respecto a los proyectos</li>
+                <li class="hobby-favorito">Aprender cosas nuevas</li>
+                <li>desarmar cosas para saber como funcionan por dentro</li>
+            </ul>
+        </section>
+        <section class="tarjeta">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                <br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+                <br><br>
+                <label for="correo">Correo electronico:</label>
+                <input type="email" id="correo" placeholder="Ingrese su correo" required> 
+                <br><br>
+
+                <button id="btn-enviar" type="submit">Enviar </button>
+                <p id="mensaje-exito"></p>
+            </form>
+        </section>
+        <section class="tarjeta">
+            <h2>Mis habiliades</h2>
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section class="tarjeta">
+            <h2>Mis Proyectos</h2>
+            <ul>
+                <li>Proyecto 1: Aplicación de gestión de tareas</li>
+                <li>Proyecto 2: Sitio web de portafolio personal</li>
+                <li>Proyecto 3: Juego interactivo en línea</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2026 Todos los derechos reservados  a Jorge Barrera </p>
+    </footer>
+<script src="/app.js"></script>       
+</body>
+</html>
